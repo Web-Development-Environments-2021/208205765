@@ -1,7 +1,29 @@
-#menu
+.menu
 {
 	position: fixed;
 	width: 100%;
 	height: 35px;
-	background: white;
+	background: grey
+	}
+.menu a {
+	float: left;
+	display: inline;
+	color: white;
+	padding-right: 15px;
+	font-weight: bolder;
+	font-family: 'Courier New', Courier, monospace;
+	height: 35px;
+	font-size: large;
 }
+
+.menu a:hover{
+	background-color: black;
+}
+
+
+.labels{
+	font-size: large;
+	font-weight: bold;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

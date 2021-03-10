@@ -4,40 +4,42 @@
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+<div class="menu"> 
+<a href="#about">About Me</a>
+<a href="#photos">My Photos</a>
+<a href="#playlist">My Playlist</a>
+<a href="#like">Like</a>
+<a href="#qrcoder">QR code</a>
+<a href="#spa">Q&A</a>
+<a href="#contact">Contact Me</a>
 </div>
-		  
+
 <section id="about" class="section">
+  
 <br/>
 <br/>
 <br/>
+<span class="labels">about me</span>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
+<p>
+  <b>Hello! </b>
+  <br/>
+  My name is Genya. I'm 72 years old. I was born in Chernivtzi,Ukraine,USSR.
+  <br/>
+  I have 2 daughters and 5 grandchildren.
+  <br/>
+  I live in Ashdod,Israel.
+  <br/>
+  I can speak fluent 5 languages: Russian,Hebrew,English,French and Yiddish.
+  <br/>
+  My hobbies are:playing and teaching Bridge, cook, meet with friends and solving crosswords.
+</p>
 </section>
 
 <section id="photos" class="section">
+  
 <br/>
 <br/>
 <br/>
@@ -64,62 +66,27 @@ my photos
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
 my playlist
 <br/>
 <br/>
 <br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n4HRPip2BjE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 
 <section id="like" class="section">
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
 give me a like
 <br/>
 <br/>
 <br/>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FKFCinIsrael&width=108&layout=button_count&action=like&size=large&share=false&height=21&appId" width="108" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 </section>
 
 <section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>
@@ -127,6 +94,9 @@ scan my code
 <br/>
 <br/>
 <br/>
+<img src="qrcode.png"  alt="qr code" style="width: 315px; height: 315px;"/>
+<br/>
+<b>Scan me please!</b>
 </section>
 
 <section id="spa" class="section">
@@ -189,5 +159,6 @@ $(function(){
     $('#menu').toggle($(this).scrollTop()>1000)
  });​
  </script>
+ 
 </body>
 </html>
