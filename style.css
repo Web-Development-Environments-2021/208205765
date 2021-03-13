@@ -2,7 +2,7 @@
 {
 	position: fixed;
 	width: 100%;
-	height: 35px;
+	height: 3%;
 	background: grey
 	}
 .menu a {
@@ -12,7 +12,7 @@
 	padding-right: 15px;
 	font-weight: bolder;
 	font-family: 'Courier New', Courier, monospace;
-	height: 35px;
+	height: 100%;
 	font-size: large;
 }
 
@@ -21,21 +21,83 @@
 }
 
 
-.labels{
-	font-size: large;
+p.labels{
+	text-align: center;
+	background-color: white;
 	font-weight: bold;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+	padding: 1%;
+	outline-style: dotted;
+	text-decoration: underline;
+	font-size: 2vw ;
 
-.content{
-	margin: auto;
+	
+}
+.row{
+	height: inherit;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: stretch;
+}
+@media (max-width:800px){
+	.row{
+		flex-direction: column;
+	}
 }
 
 .row img{
 	float: left;
 	margin: 5px;
 	width: 15%;
-	height: 300px;
-	object-fit: fill;
+	min-height: 100%;
+	flex-grow: 1;
+	border-radius: 35%;
+	opacity: 0.7;
 }
 
+.row img:hover{
+	opacity: 1.0;
+}
+
+
+section{
+	margin-bottom: 1%;
+	background-color: aqua;
+	height: 15%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+body{
+	background-image:url(Images/1_FVfdYFOkVlf2lPswre6iXg.jpeg) ;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#submitButton{
+	background-color: grey;
+	padding: 10px;
+	font-weight: bold;
+	color: white;
+}
+#submitButton:hover{
+	background-color:black;
+}
+
+p#aboutMeText{
+	font-size: 1vw;
+	font-style: italic;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	color: grey;
+}
+
+table, td, th{
+	border: 1px solid black;
+}
+
+table#differencesTable{
+	border-collapse: collapse;
+	width: 100%;
+}

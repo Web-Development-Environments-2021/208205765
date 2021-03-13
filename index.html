@@ -15,8 +15,8 @@
   });
 </script>
 </head>
-<body>
-     
+<body >
+
 <div class="menu"> 
 <a href="#about">About Me</a>
 <a href="#photos">My Photos</a>
@@ -27,24 +27,20 @@
 <a href="#contact">Contact Me</a>
 </div>
 
-<div class="content">
+ 
+<br/>
+<br/>
+<br/>
+<p class="labels">About me</p>
 <section id="about" class="section">
-  
-<br/>
-<br/>
-<br/>
-<span class="labels">about me</span>
-<br/>
-<br/>
-<br/>
-<p>
+<p id="aboutMeText">
   <b>Hello! </b>
   <br/>
   My name is Anatoly Karpov and I was a world chess champion.
   <br/>
   I was born in May 23rd 1951  in USSR. At the age of 4, I learned to play chess.
   <br/>
-  At the age of 11, I received a rating of Master Candidate. My chess game was quickly improved thank's to the chess player Mikhail Botvinik
+  At the age of 11, I received a rating of Master Candidate. My chess game was quickly improved thank's to the chess player Mikhail Botvinik.
   <br/>
   In 1966, I received Master rating and became the youngest Soviet chess master. In 1969, I won my first world youth chess championship.
   <br/>
@@ -56,17 +52,15 @@
   <br/>
   I like to collect stamps and learn about chess.
   <br/>
-  
-
-</p>
+ </p>
 </section>
 
+<p class="labels">My Photos</p>
 <section id="photos" class="section">
   
 <br/>
 <br/>
 <br/>
-my photos
 <br/>
 <br/>
 <br/>
@@ -80,48 +74,45 @@ my photos
   </div>
 </section>
 
+<p class="labels">My Playlist</p>
 <section id="playlist" class="section">
 <br/>
 <br/>
 <br/>
-
-my playlist
 <br/>
 <br/>
 <br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n4HRPip2BjE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/n4HRPip2BjE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 
+<p class="labels">Give Me A Like</p>
 <section id="like" class="section">
 <br/>
 <br/>
 <br/>
-
-give me a like
 <br/>
 <br/>
 <br/>
-<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FKFCinIsrael&width=108&layout=button_count&action=like&size=large&share=false&height=21&appId" width="108" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FKFCinIsrael&width=108&layout=button_count&action=like&size=large&share=false&height=21&appId" width="200" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 </section>
 
+<p class="labels">Scan My Code</p>
 <section id="qrcoder" class="section">
 <br/>
 <br/>
 <br/>
-scan my code
 <br/>
 <br/>
 <br/>
-<img src="qrcode.png"  alt="qr code" style="width: 315px; height: 315px;"/>
+<img src="qrcode.png"  alt="qr code" style="width: 315px; height: 315px; margin-right: auto; margin-left: auto; display: block;"/>
 <br/>
-<b>Scan me please!</b>
 </section>
 
+<p class="labels">Ans</p>
 <section id="spa" class="section">
 <br/>
 <br/>
 <br/>
-ans
 <br/>
 <br/>
 <br/>
@@ -154,19 +145,18 @@ ans
 <br/>
 <br/>
 <p>
-  Use case example: Bezeq website
+  Use case example: Displaying Bezeq website
 </p>
 <table>
   <tr>
-    <td></td>
     <td>Web 1.0</td>
     <td>Web 2.0</td>
     <td>Web 3.0</td>
   </tr>
   <tr>
     <td>Static website which shows only the packages they sell, list of stores and contact information</td>
-    <td>Dynamic website that involves new technologies like speed test</td>
-    <td>Dynamic website that involves AI like chatboots and involves 3D animations</td>
+    <td>Dynamic website that involves new user input features like chat with costumer service</td>
+    <td>Dynamic website that involves AI technologies like chatboots and involves 3D animations</td>
   </tr>
 </table>
 </section>
@@ -186,11 +176,11 @@ contact me
   <br/>
   <textarea name="message" id="messageTextArea" rows="10" cols="30" placeholder="Please enter your message..."></textarea>
   <br/>
-  <input type="submit" value="submit"/>
+  <input id="submitButton" type="submit" value="submit"/>
 </fieldset>
 </form>
 </section>
-</div>
+
 
 
 <script type="text/javascript">
