@@ -15,6 +15,7 @@
 	font-family: 'Courier New', Courier, monospace;
 	height: 100%;
 	font-size: 1.5vmax;
+	text-align: left;
 }
 
 .menu a:hover{
@@ -128,8 +129,6 @@ table.answerTables{
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 	
-
-
 p.answerLabels{
 	font-weight: bold;
 	font-style: oblique;
