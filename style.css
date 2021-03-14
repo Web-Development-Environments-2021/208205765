@@ -2,8 +2,9 @@
 {
 	position: fixed;
 	width: 100%;
-	height: 3%;
-	background: grey
+	height: 4%;
+	background: grey;
+	z-index:2;
 	}
 .menu a {
 	float: left;
@@ -13,7 +14,7 @@
 	font-weight: bolder;
 	font-family: 'Courier New', Courier, monospace;
 	height: 100%;
-	font-size: large;
+	font-size: 1.5vw;
 }
 
 .menu a:hover{
@@ -62,10 +63,12 @@ p.labels{
 
 section{
 	margin-bottom: 1%;
-	background-color: aqua;
 	height: 15%;
 	margin-left: 25%;
 	margin-right: 25%;
+}
+section#contact{
+	background-color: black;
 }
 
 body{
@@ -80,24 +83,47 @@ body{
 	padding: 10px;
 	font-weight: bold;
 	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 #submitButton:hover{
 	background-color:black;
 }
 
 p#aboutMeText{
-	font-size: 1vw;
+	font-size: 1.5vw;
 	font-style: italic;
 	font-family: 'Times New Roman', Times, serif;
 	font-weight: bold;
-	color: grey;
+	color:white;
 }
 
-table, td, th{
-	border: 1px solid black;
+table.answerTables,.answerTables td,.answerTables th{
+	border: 1px solid white;
 }
 
-table#differencesTable{
+table.answerTables tr{
+	background-color: rgb(9, 224, 56);
+
+}
+table.answerTable :first-child{
+	background-color: greenyellow;
+	font-weight: bold;
+}
+table.answerTables{
 	border-collapse: collapse;
 	width: 100%;
+	text-align: left;
+	color: white;
+}
+
+p.answerLabels{
+	font-weight: bold;
+	font-style: oblique;
+	text-decoration: underline;
+	font-size: 1.5vw;
+	text-align: center;
+	color: darkcyan;
+	background-color: darkgray;
 }

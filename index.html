@@ -29,10 +29,11 @@
 
  
 <br/>
-<br/>
-<br/>
 <p class="labels">About me</p>
 <section id="about" class="section">
+  <br/>
+  <br/>
+ <div id="aboutMeDiv" style="background-color: darkcyan;">
 <p id="aboutMeText">
   <b>Hello! </b>
   <br/>
@@ -53,6 +54,7 @@
   I like to collect stamps and learn about chess.
   <br/>
  </p>
+</div> 
 </section>
 
 <p class="labels">My Photos</p>
@@ -89,11 +91,7 @@
 <section id="like" class="section">
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FKFCinIsrael&width=108&layout=button_count&action=like&size=large&share=false&height=21&appId" width="200" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FKFCinIsrael&width=210&layout=button&action=like&size=large&share=false&height=65&appId" width="210" height="25" style="border:none;overflow:hidden; margin: auto; display: block;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 </section>
 
 <p class="labels">Scan My Code</p>
@@ -111,14 +109,10 @@
 <p class="labels">Ans</p>
 <section id="spa" class="section">
 <br/>
+<p class="answerLabels"> Three main differences between the webs:</p>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<label id="differences"> Three main differences between the webs:</label>
-<br/>
-<table id="differencesTable">
+<div  style="overflow-x: auto;">
+<table class="answerTables">
   <tr>
     <td>Web 1.0</td>
     <td>Web 2.0</td>
@@ -141,13 +135,13 @@
        by leveraging the connection between people or special cotent(like Facebook,Google Maps)</td>
   </tr>
 </table>
+</div>
 <br/>
-<br/>
-<br/>
-<p>
+<p class="answerLabels">
   Use case example: Displaying Bezeq website
 </p>
-<table>
+<div style="overflow-x: auto;" >
+<table class="answerTables">
   <tr>
     <td>Web 1.0</td>
     <td>Web 2.0</td>
@@ -159,20 +153,17 @@
     <td>Dynamic website that involves AI technologies like chatboots and involves 3D animations</td>
   </tr>
 </table>
+</div>
 </section>
 
+<p class="labels"> Contact Me</p>
 <section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
+
 <form method="POST">
   <fieldset>
-  <label for="email" style="margin-right: 5px; margin-bottom: 5px;">Please enter your email </label>
+  <label for="email" style="margin-right: 5px; margin-bottom: 5px; font-weight: bold; color: wheat;">Please enter your email </label>
   <input type="email" name="email" id="email">
+  <br/>
   <br/>
   <textarea name="message" id="messageTextArea" rows="10" cols="30" placeholder="Please enter your message..."></textarea>
   <br/>
