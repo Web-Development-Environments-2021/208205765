@@ -63,6 +63,9 @@ p.labels{
 		width: 75%;
 		height: 15%;
 	}
+	.menu a{
+		font-size: 2vw;
+	}
 	
 }
 section{
