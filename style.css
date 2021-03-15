@@ -71,11 +71,8 @@ p.labels{
 section{
 	margin-bottom: 1%;
 	height: 15%;
-	margin-left: 25%;
-	margin-right: 25%;
-}
-section#contact{
-	background-color: black;
+	padding-top: 5%;
+	width: 100%;
 }
 
 body{
@@ -140,4 +137,9 @@ p.answerLabels{
 	text-align: center;
 	color: darkcyan;
 	background-color: darkgray;
+}
+
+.contentDiv{
+	margin-left: 25%;
+	margin-right: 25%;
 }

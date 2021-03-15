@@ -29,11 +29,12 @@
 
  
 <br/>
-<p class="labels">About me</p>
+
 <section id="about" class="section">
+  <p class="labels">About me</p>
   <br/>
   <br/>
- <div id="aboutMeDiv" style="background-color: darkcyan;">
+ <div class="contentDiv" style="background-color: darkcyan;">
 <p id="aboutMeText">
   <b>Hello! </b>
   <br/>
@@ -57,15 +58,15 @@
 </div> 
 </section>
 
-<p class="labels">My Photos</p>
 <section id="photos" class="section">
-  
+  <p class="labels">My Photos</p> 
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
+<div class="contentDiv">
 <div class="row">
     <img src="Images/300px-Euwe_schaakvierkamp,_laatste_ronde_Karpov,_Bestanddeelnr_928-5944.jpg" alt=""/>
     <img src="Images/595161-46.jpg" alt=""/>
@@ -74,36 +75,48 @@
     <img src="Images/download.jpg" alt=""/>
     <img src="Images/1200px-Interpolisschaaktoernooi_Tilburg_Karpov_aan_zet,_Bestanddeelnr_929-3627.jpg" alt=""/>
   </div>
+</div>
 </section>
 
-<p class="labels">My Playlist</p>
+
 <section id="playlist" class="section">
+  <p class="labels">My Playlist</p>
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
+<div class="contentDiv">
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/n4HRPip2BjE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 </section>
 
-<p class="labels">Give Me A Like</p>
+
 <section id="like" class="section">
+  <p class="labels">Give Me A Like</p>
 <br/>
 <br/>
+<div class="contentDiv">
 <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FKFCinIsrael&width=210&layout=button&action=like&size=large&share=false&height=65&appId" width="210" height="25" style="border:none;overflow:hidden; margin: auto; display: block;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+</div>
 </section>
 
-<p class="labels">Scan My Code</p>
+
 <section id="qrcoder" class="section">
+  <p class="labels">Scan My Code</p>
 <br/>
+<div class="contentDiv">
 <img src="qrcode.png"  alt="qr code" style="width: 60%; margin-right: auto; margin-left: auto; display: block;"/>
+</div>
 <br/>
 </section>
 
-<p class="labels">Ans</p>
+
 <section id="spa" class="section">
+  <p class="labels">Ans</p>
 <br/>
+<div class="contentDiv">
 <p class="answerLabels"> Three main differences between the webs:</p>
 <br/>
 <div  style="overflow-x: auto;">
@@ -149,12 +162,14 @@
   </tr>
 </table>
 </div>
+</div>
 </section>
 
-<p class="labels"> Contact Me</p>
-<section id="contact" class="section">
 
-<form method="POST">
+<section id="contact" class="section">
+  <p class="labels"> Contact Me</p>
+  <div class="contentDiv">
+<form method="POST" style="background-color: black;">
   <fieldset>
   <label for="email" style="margin-right: 5px; margin-bottom: 5px; font-weight: bold; color: wheat;">Please enter your email </label>
   <input type="email" name="email" id="email">
@@ -165,6 +180,7 @@
   <input id="submitButton" type="submit" value="submit"/>
 </fieldset>
 </form>
+</div>
 </section>
 
 
