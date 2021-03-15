@@ -18,6 +18,13 @@
 	text-align: left;
 }
 
+.menu img{
+	height: 100%;
+	width: 15%;
+	float: right;
+	margin-right: 1%;
+}
+
 .menu a:hover{
 	background-color: black;
 }
@@ -82,17 +89,24 @@ body{
 	background-attachment: fixed;
 }
 
-#submitButton{
+.mailButton{
 	background-color: grey;
 	padding: 10px;
 	font-weight: bold;
 	color: white;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	float: left;
+	margin-right: 0.5%;
 }
-#submitButton:hover{
+.mailButton:hover{
 	background-color:black;
+}
+
+.mailButtons{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 }
 
 p#aboutMeText{

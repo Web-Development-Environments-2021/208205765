@@ -25,6 +25,7 @@
 <a href="#qrcoder">QR code</a>
 <a href="#spa">Q&A</a>
 <a href="#contact">Contact Me</a>
+<img src="Images/d33999a8d43e3e3614ff5e7f4cb18a45.jpg" alt="FIDE logo"/>
 </div>
 
  
@@ -169,16 +170,17 @@
 <section id="contact" class="section">
   <p class="labels"> Contact Me</p>
   <div class="contentDiv">
-<form method="POST" style="background-color: black;">
-  <fieldset>
+<form action="mailto:ronny54@gmail.com" method="post" enctype="text/plain" style="background-color: black;">
   <label for="email" style="margin-right: 5px; margin-bottom: 5px; font-weight: bold; color: wheat;">Please enter your email </label>
   <input type="email" name="email" id="email">
   <br/>
   <br/>
   <textarea name="message" id="messageTextArea" style="width: 100%;" placeholder="Please enter your message..."></textarea>
   <br/>
-  <input id="submitButton" type="submit" value="submit"/>
-</fieldset>
+  <div class="mailButtons">
+  <input class="mailButton" type="submit" value="Submit"/>
+  <input class="mailButton" type="reset" value="Reset"/>
+</div>
 </form>
 </div>
 </section>
